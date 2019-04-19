@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ims</string>
+	</array>
+	<key>name</key>
+	<string>IMS Basic</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>This highlights comments. Triggered by !</string>
+			<key>match</key>
+			<string>(^['|"]*|\s)(\!.*)</string>
+			<key>name</key>
+			<string>comment.line.asterisk.ims</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.ims</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.ims</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Highlight CALLs. Treated as functions.</string>
+			<key>match</key>
+			<string>(?i)(CALL)\s+([$a-zA-Z0-9_\.-]+)</string>
+			<key>name</key>
+			<string>entity.name.function.ims</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.ims</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.ims</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Highlight GOSUBs. Treated as functions.</string>
+			<key>match</key>
+			<string>(?i)(GOSUB)\s+([a-zA-Z_\.0-9]*)</string>
+			<key>name</key>
+			<string>entity.name.function.ims</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.ims</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.ims</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Highlight GOTOs. Treated as functions.</string>
+			<key>match</key>
+			<string>(?i)(GOTO)\s+([a-zA-Z_\.0-9]*)</string>
+			<key>name</key>
+			<string>entity.name.function.ims</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.ims</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.ims</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Highlight line declarations (:). Treated as functions.</string>
+			<key>match</key>
+			<string>([A-Z_\.0-9*]*)(:)</string>
+			<key>name</key>
+			<string>entity.name.function.ims</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Highlight strings.</string>
+			<key>match</key>
+			<string>(\'[A-Za-z0-9?*%$^&()@#\=;:,\\\/|.\-\"\_ ]*\'|\"[A-Za-z0-9?*%$^&()@#\=;:,\\\/|.\-\'\_ ]*\")</string>
+			<key>name</key>
+			<string>string.other.quoted-or-unquoted.ims</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Highlight Control Keywords</string>
+			<key>match</key>
+			<string>(?i)\b(SEARCH|ELSE|END|ERR|FOR|STEP|GOSUB|GOTO|IF|ENDIF|NEXT|ON|THEN|TO|UNTIL|WHILE|WEND)\b</string>
+			<key>name</key>
+			<string>keyword.control.ims</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Flag operators, theme may or may not highlight them</string>
+			<key>match</key>
+			<string>(\+|\-|\*|\/)</string>
+			<key>name</key>
+			<string>keyword.operator.ims</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Highlight numeric values</string>
+			<key>match</key>
+			<string>\b([0-9]+)\b</string>
+			<key>name</key>
+			<string>constant.numeric.ims</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Highlight Keywords as types. Case insensitive</string>
+			<key>match</key>
+			<string>(?i)\b(ABS|FIELD|INT|LEN|CHF|CHR|EXP|FRA|IXR|KEY|LOG|MAN|POS|RND|SGN|SIN|SIZEOF|SQR|TAN|VAL|SPC|DTCHECK|\bDTDAY\b|\bDTFORMAT\b|\bDTMONTH\b|DTNOW|DTPART|DTSERIAL|DTVALUE|TMADD|TMCHECK|TMNOW|TMSERIAL|TMVALUE)\b</string>
+			<key>name</key>
+			<string>storage.type.ims</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Highlight Keywords as types. Case insensitive</string>
+			<key>match</key>
+			<string>(?i)\b(NOT|OR|AND|CALL|CHAIN|CLOSE|DATA|DEBUG|DIM|DEF|LET|ENTER|INPUT|MAT|OPEN|PRINT|READ|SEARCH|RETURN|SLEEP|WRITE|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|INCLUDE|CONST)\b</string>
+			<key>name</key>
+			<string>storage.type.ims</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.ims</string>
+</dict>
+</plist>

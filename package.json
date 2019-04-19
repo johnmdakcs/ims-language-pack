@@ -1,0 +1,26 @@
+{
+	"name": "imsbasic",
+	"displayName": "IMSBasic",
+	"description": "IMS Basic Syntax Highlighting and language support",
+	"version": "1.0.3",
+	"publisher": "JohnMoss",
+	"engines": {
+		"vscode": "^1.1.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "ims",
+			"aliases": ["IMS BASIC", "ims", "AA BASIC"],
+			"extensions": [".PP", ".POST", ""],
+			"configuration": "./ims.configuration.json"
+		}],
+		"grammars": [{
+			"language": "ims",
+			"scopeName": "source.ims",
+			"path": "./syntaxes/ims.tmLanguage"
+		}]
+	}
+}
