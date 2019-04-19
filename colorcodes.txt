@@ -1,0 +1,2 @@
+entity.name.function.ims - only works on standard
+keyword.operator.quantifier.regexp.ims - only works on standard
