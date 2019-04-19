@@ -52,6 +52,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Highlight Channels (#). Treated as functions.</string>
+			<key>match</key>
+			<string>(#)([A-Za-z_0-9*]*)</string>
+			<key>name</key>
+			<string>constant.character.character-class.regexp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Highlight line declarations (:). Treated as functions.</string>
 			<key>match</key>
 			<string>([A-Za-z_\-0-9*]*)(:)</string>
