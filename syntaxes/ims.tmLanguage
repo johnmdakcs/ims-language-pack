@@ -30,7 +30,7 @@
 			<key>comment</key>
 			<string>Highlight GOSUBs. Treated as functions.</string>
 			<key>match</key>
-			<string>(?i)(GOSUB)\s+([a-zA-Z_\.0-9]*)</string>
+			<string>(?i)(?<=GOSUB)\s+([a-zA-Z_\.0-9]*)</string>
 			<key>name</key>
 			<string>keyword.operator.quantifier.regexp.ims</string>
 		</dict>
@@ -38,7 +38,7 @@
 			<key>comment</key>
 			<string>Highlight GOTOs. Treated as functions.</string>
 			<key>match</key>
-			<string>(?i)(GOTO)\s+([a-zA-Z_\.0-9]*)</string>
+			<string>(?i)(?<=GOTO)\s+([a-zA-Z_\.0-9]*)</string>
 			<key>name</key>
 			<string>keyword.operator.quantifier.regexp.ims</string>
 		</dict>
@@ -110,7 +110,7 @@
 			<key>comment</key>
 			<string>Highlight Keywords as types. Case insensitive (dark blue)</string>
 			<key>match</key>
-			<string>(?i)\b([|]|DATA|DEBUG|DIM|DEF|ENDDEF|LET|ENTER|INPUT|PRINT|RETURN|SLEEP|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|CONST)\b</string>
+			<string>(?i)\b(GOSUB|GOTO|DATA|DEBUG|DIM|DEF|ENDDEF|LET|ENTER|INPUT|PRINT|RETURN|SLEEP|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|CONST)\b</string>
 			<key>name</key>
 			<string>storage.type.ims</string>
 		</dict>
