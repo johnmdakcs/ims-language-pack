@@ -54,9 +54,9 @@
 			<key>comment</key>
 			<string>Highlight Channels (#). Treated as functions.</string>
 			<key>match</key>
-			<string>(#)([A-Za-z_0-9*]*)</string>
+			<string>(#)([A-Za-z_0-9.!*]*)</string>
 			<key>name</key>
-			<string>constant.character.character-class.regexp</string>
+			<string>storage.type.ims</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -110,7 +110,7 @@
 			<key>comment</key>
 			<string>Highlight Keywords as types. Case insensitive (light blue)</string>
 			<key>match</key>
-			<string>(?i)\b(INCLUDE|CALL|CHAIN|SEARCH|OPEN|CLOSE|BUILD|READ|WRITE|MAT|ABS|FIELD|INT|LEN|CHF|CHR|EXP|FRA|IXR|KEY|LOG|MAN|POS|RND|SGN|SIN|SIZEOF|SQR|TAN|VAL|SPC|DTCHECK|\bDTDAY\b|\bDTFORMAT\b|\bDTMONTH\b|DTNOW|DTPART|DTSERIAL|DTVALUE|TMADD|TMCHECK|TMNOW|TMSERIAL|TMVALUE)\b</string>
+			<string>(?i)\b(INCLUDE|CALL|CHAIN|SEARCH|OPEN|CLOSE|BUILD|READ|WRITE|MAT|ABS|INT|LEN|CHF|CHR|EXP|FRA|IXR|KEY|LOG|MAN|POS|RND|SGN|SIN|SIZEOF|SQR|TAN|VAL|SPC|DTCHECK|\bDTDAY\b|\bDTFORMAT\b|\bDTMONTH\b|DTNOW|DTPART|DTSERIAL|DTVALUE|TMADD|TMCHECK|TMNOW|TMSERIAL|TMVALUE)\b</string>
 			<key>name</key>
 			<string>support.variable.ims</string>
 		</dict>
