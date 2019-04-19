@@ -22,9 +22,9 @@
 			<key>comment</key>
 			<string>Highlight CALLs. Treated as functions.</string>
 			<key>match</key>
-			<string>(?i)(CALL)\s+([$a-zA-Z0-9_\.-]+)</string>
+			<string>(?i)(?<=CALL)\s+([$a-zA-Z0-9_\.-]+)</string>
 			<key>name</key>
-			<string>variable.ims</string>
+			<string>keyword.operator.quantifier.regexp.ims</string>
 		</dict>
 		<dict>
 			<key>comment</key>
