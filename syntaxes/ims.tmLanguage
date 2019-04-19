@@ -110,7 +110,7 @@
 			<key>comment</key>
 			<string>Highlight Keywords as types. Case insensitive (dark blue)</string>
 			<key>match</key>
-			<string>(?i)\b(GOSUB|GOTO|DATA|DEBUG|DIM|DEF|ENDDEF|LET|ENTER|INPUT|PRINT|RETURN|SLEEP|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|CONST)\b</string>
+			<string>(?i)\b(USING|GOSUB|GOTO|DATA|DEBUG|DIM|DEF|ENDDEF|LET|ENTER|INPUT|PRINT|RETURN|SLEEP|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|CONST)\b</string>
 			<key>name</key>
 			<string>storage.type.ims</string>
 		</dict>
