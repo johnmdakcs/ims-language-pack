@@ -98,7 +98,7 @@
 			<key>comment</key>
 			<string>Highlight line declarations (:). Treated as functions.</string>
 			<key>match</key>
-			<string>([A-Z_\.0-9*]*)(:)</string>
+			<string>([A-Za-z_\-0-9*]*)(:)</string>
 			<key>name</key>
 			<string>entity.name.function.ims</string>
 		</dict>
