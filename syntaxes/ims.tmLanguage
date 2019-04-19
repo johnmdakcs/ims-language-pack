@@ -146,7 +146,7 @@
 			<key>comment</key>
 			<string>Highlight Keywords as types. Case insensitive</string>
 			<key>match</key>
-			<string>(?i)\b(NOT|OR|AND|CALL|CHAIN|CLOSE|DATA|DEBUG|DIM|DEF|LET|ENTER|INPUT|MAT|OPEN|BUILD|PRINT|READ|SEARCH|RETURN|SLEEP|WRITE|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|INCLUDE|CONST)\b</string>
+			<string>(?i)\b(NOT|OR|AND|CALL|CHAIN|CLOSE|DATA|DEBUG|DIM|DEF|ENDDEF|LET|ENTER|INPUT|MAT|OPEN|BUILD|PRINT|READ|SEARCH|RETURN|SLEEP|WRITE|BLOCK|SWAP|SPAWN|SUSPEND|STOP|SIGNAL|SYSTEM|INCLUDE|CONST)\b</string>
 			<key>name</key>
 			<string>storage.type.ims</string>
 		</dict>
