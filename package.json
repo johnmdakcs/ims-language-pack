@@ -2,7 +2,7 @@
 	"name": "imsbasic",
 	"displayName": "IMSBasic",
 	"description": "IMS Basic Syntax Highlighting and language support",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"publisher": "JohnMoss",
 	"engines": {
 		"vscode": "^1.1.0"
