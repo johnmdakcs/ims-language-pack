@@ -70,7 +70,7 @@
 			<key>comment</key>
 			<string>Highlight strings.</string>
 			<key>match</key>
-			<string>(\'[A-Za-z0-9?*%!$^&\<\>:()@#\=;:,\\\/|.\-\"\_ ]*\'|\"[A-Za-z0-9?*%!$^&\<\>:()@#\=;:,\\\/|.\-\'\_ ]*\")</string>
+			<string>(\'[A-Za-z0-9?*%!$^&\<\>:+()@#\=;:,\\\/|.\-\"\_ ]*\'|\"[A-Za-z0-9?*%!$^&\<\>:+()@#\=;:,\\\/|.\-\'\_ ]*\")</string>
 			<key>name</key>
 			<string>string.other.quoted-or-unquoted.ims</string>
 		</dict>
